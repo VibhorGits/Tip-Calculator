@@ -34,7 +34,7 @@
         android:id="@+id/TipLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="56dp"
         android:text="Tip"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@id/BaseLabel"
@@ -95,4 +95,27 @@
         app:layout_constraintStart_toStartOf="@+id/TipValue"
         app:layout_constraintTop_toTopOf="@+id/TotalLabel"
         tools:text="103.11" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Made with ❤️ by Vibhor"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tipgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SeekBar"
+        app:layout_constraintStart_toStartOf="@+id/SeekBar"
+        app:layout_constraintTop_toTopOf="@+id/SeekBar"
+        tools:text="Acceptable" />
 </androidx.constraintlayout.widget.ConstraintLayout>
